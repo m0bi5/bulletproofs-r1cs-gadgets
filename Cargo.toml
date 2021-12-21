@@ -21,7 +21,7 @@ failure = "0.1"
 
 [dependencies.bulletproofs]
 #path = "../bulletproofs"
-git = "https://github.com/lovesh/bulletproofs"
+git = "https://github.com/m0bi5/bulletproofs"
 branch = "smt"
 features = ["std", "avx2_backend", "yoloproofs"]
 
