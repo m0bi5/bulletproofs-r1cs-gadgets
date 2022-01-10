@@ -26,10 +26,10 @@ pub const TreeDepth: usize = 64;
 
 pub struct VanillaSparseMerkleTree<'a> {
     pub depth: usize,
-    empty_tree_hashes: Vec<Scalar>,
-    db: HashMap<ScalarBytes, DBVal>,
+    pub empty_tree_hashes: Vec<Scalar>,
+    pub db: HashMap<ScalarBytes, DBVal>,
     //hash_constants: &'a [Scalar],
-    hash_params: &'a PoseidonParams,
+    pub hash_params: &'a PoseidonParams,
     pub root: Scalar
 }
 
